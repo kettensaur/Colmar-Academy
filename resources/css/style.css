@@ -15,7 +15,10 @@ header {
   box-shadow: 0px 3px 5px 0px rgba(158, 158, 158, 0.57);
   position: relative;
 }
-
+.container {
+  margin: 0 auto;
+  width: 100%;
+}
 .logo {
   display: flex;
   margin-left: 25px;
@@ -58,7 +61,7 @@ margin-right: 16px;
 }
 
 .mainbanner img {
-  max-height: 800px;
+  max-height: 60%;
   width: auto;
   margin: 32px 25px;
   }
@@ -106,16 +109,19 @@ text-decoration: none;
 font-size: 30px;
 }
 
-.banners {
+.banner-family {
   display: flex;
-  flex-direction: row;
-  margin: auto;
-  justify-content: space-between;
+  margin: 0;
+  width: 100%;
 }
 
+.main img {
+ margin: 32px 25px;
+ height: 60%;
+}
 .banners.info {
   display: flex;
-  width: 100%;
+  flex-direction: column;
   border: 1px solid black;
 }
 
