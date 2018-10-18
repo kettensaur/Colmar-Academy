@@ -20,7 +20,7 @@ header {
 }
 .logo {
   display: flex;
-  margin-left: 25px;
+  margin-left: 35px;
   align-items: center;
   flex-grow: 1;
 }
@@ -41,7 +41,7 @@ strong {
   color: #4F2412;
 }
 .navigation {
- margin-right: 24px;
+ margin-right: 34px;
   }
 
 nav span {
@@ -62,7 +62,7 @@ margin-right: 16px;
 .mainbanner img {
   max-height: 60%;
   width: auto;
-  margin: 32px 25px;
+  margin: 52px 34px;
   }
 
 .learn {
@@ -71,7 +71,7 @@ margin-right: 16px;
   width: 560px;
   flex-direction: column;
   justify-content: center;
-  margin-left: 24px;
+  margin-left: 34px;
 }
 
 .learn h1 {
@@ -117,15 +117,15 @@ font-size: 30px;
 }
 
 .main img {
- margin-top: 32px;
- margin-left: 24px;
+ margin-top: 52px;
+ margin-left: 34px;
  margin-right: 24px;
  height: 60%;
 }
 .banners.info {
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
+  border-right: 2px solid #E9E0DB;
   width: 1190px;
 
 }
@@ -135,23 +135,36 @@ font-size: 30px;
   font-weight: bold;
   letter-spacing: -1px;
   margin-top: 32px;
-  margin-left: 24px;
+  margin-left: 34px;
 }
 
 .banners.info p {
   font-size: 25px;
-  margin: 24px;
+  margin: 34px;
+  line-height: 40px;
 }
 
 .banners.info h5 {
   font-size: 21px;
   font-family: Arial;
-  margin: 32px 24px;
+  margin: 32px 34px;
 }
 
 .banners.small {
-  display: flex;
-  border: 1px solid black;
+  border-bottom: 1px solid black;
   padding-left: 15px;
-  width: 690px;
+  width: 692px;
+}
+
+.image-content {
+ display: inline-flex;
+ border: 1px solid black;
+}
+.image1 {
+  width: 35%;
+  height: auto;
+  border: 1px solid black;
+}
+.info {
+  border: 1px solid black;
 }
