@@ -256,26 +256,39 @@ section a {
 video {
   width: 60%;
   height: auto;
-  margin-left: 34px;
 }
 
 .container3 {
   display: flex;
   justify-content: space-between;
-  margin: 0;
-  width: 100%;
+  flex-wrap: wrap;
+  margin: 0 auto;
   background-color:#F9F6F4;
 }
 .video-content {
-  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 709px;
 
 }
-.video {
-  border: 1px solid black;
+
+#pls {
+  display: flex;
+  background-color: #E9E0DB;
 }
-.video h3 {
-  margin-top: 34px;
-  margin-left: 34px;
+
+#pls h3 {
+  margin-right: 34px;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+#pls2 {
+  display: flex;
+}
+
+#pls2 h3 {
+  margin-right: 34px;
   font-size: 35px;
   font-weight: 500;
 }
