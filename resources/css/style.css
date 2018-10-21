@@ -260,8 +260,6 @@ video {
 
 .container3 {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
   margin: 0 auto;
   background-color:#F9F6F4;
 }
@@ -291,4 +289,14 @@ video {
   margin-right: 34px;
   font-size: 35px;
   font-weight: 500;
+}
+
+.title h1 {
+  text-align: center;
+  padding-top: 52px;
+  padding-bottom: 32px;
+  font-size: 65px;
+  font-weight: bold;
+  background-color: #F9F6F4;
+
 }
