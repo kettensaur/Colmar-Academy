@@ -254,8 +254,10 @@ section a {
 }
 
 video {
-  width: 60%;
+  margin-top: 32px;
+  width: 94%;
   height: auto;
+  margin-left: 34px;
 }
 
 .container3 {
@@ -289,6 +291,20 @@ video {
   margin-right: 34px;
   font-size: 35px;
   font-weight: 500;
+}
+
+#pls2 p {
+  margin-top: 1.3rem;
+  line-height: 30px;
+  font-size: 25px;
+  margin-right: 34px;
+}
+
+#pls p {
+  margin-top: 1.3rem;
+  line-height: 30px;
+  font-size: 25px;
+  margin-right: 34px;
 }
 
 .title h1 {
