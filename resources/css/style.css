@@ -256,6 +256,7 @@ section a {
 video {
   width: 60%;
   height: auto;
+  margin-left: 34px;
 }
 
 .container3 {
@@ -271,8 +272,10 @@ video {
 }
 .video {
   border: 1px solid black;
-
 }
-.video-content {
-  border: 1px solid black;
+.video h3 {
+  margin-top: 34px;
+  margin-left: 34px;
+  font-size: 35px;
+  font-weight: 500;
 }
