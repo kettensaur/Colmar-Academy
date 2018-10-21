@@ -190,12 +190,55 @@ section a {
   justify-content: center;
 }
 
-.image-content {
-
-
-}
 .image1 {
  height: auto;
  margin: 18px;
+}
+
+.container2 h1 {
+  text-align: center;
+  margin-top: 52px;
+  margin-bottom: 32px;
+  font-size: 65px;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+
+.container2 {
+  margin-left: 72px;
+  margin-right: 72px;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.ban-item {
+  margin-top: 32px;
+  background-color: #F9F6F4;
+}
+
+.ban-item h3 {
+  margin-top: 16px;
+  margin-left: 16px;
+}
+
+.ban-item h5 {
+  margin-top: 16px;
+  margin-left: 16px;
+}
+
+.ban-item p {
+  margin-top: 16px;
+  margin-left: 16px;
+  margin-bottom: 16px;
+  width: 500px;
+}
+.ban-item img {
+  height: auto;
 
 }
