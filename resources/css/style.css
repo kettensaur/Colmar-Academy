@@ -414,15 +414,42 @@ footer {
 
    .mainbanner {
      display: block;
-   }
+     }
 
   .main img {
-    width: auto;
-    height: 300px;
-    margin: 0 auto;
-    background-size: cover;
-    background-position: center;
+  display: none;
+     }
+
+  .banners.info h2 {
+    display: none;
   }
 
+  .banners.info p {
+    display: none;
   }
+
+  .banners.info h5 {
+    display: none;
+  }
+
+  .learn {
+   height: auto;
+   width: 460px;
+  }
+  .learn h1 {
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: -1px;
+  }
+
+  .learn h3 {
+    margin-top: 30px;
+    font-size: 30px;
+    word-spacing: 3px;
+    font-weight: 500;
+    line-height: 42px;
+  }
+   .banners.small {
+     display: flex;
+   }
 }
