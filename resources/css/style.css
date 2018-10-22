@@ -272,35 +272,35 @@ video {
 
 }
 
-#pls {
+#vid {
   display: flex;
   background-color: #E9E0DB;
 }
 
-#pls h3 {
+#vid h3 {
   margin-right: 34px;
   font-size: 35px;
   font-weight: 500;
 }
 
-#pls2 {
+#vid2 {
   display: flex;
 }
 
-#pls2 h3 {
+#vid2 h3 {
   margin-right: 34px;
   font-size: 35px;
   font-weight: 500;
 }
 
-#pls2 p {
+#vid2 p {
   margin-top: 1.3rem;
   line-height: 30px;
   font-size: 25px;
   margin-right: 34px;
 }
 
-#pls p {
+#vid p {
   margin-top: 1.3rem;
   line-height: 30px;
   font-size: 25px;
