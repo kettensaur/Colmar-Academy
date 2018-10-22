@@ -8,7 +8,7 @@ background-color: #E9E0DB;
 header {
   display: flex;
   height: 69px;
-  width: 100%;
+  min-width: 100%;
   align-items: center;
   z-index: 1;
   background-color: #F9F6F4;
@@ -44,10 +44,12 @@ strong {
 }
 .navigation {
  margin-right: 34px;
+
   }
 
 nav span {
 margin-right: 16px;
+
 }
 
 .navigation a {
@@ -394,4 +396,33 @@ footer {
 
 .navi a:active {
   color: #39768C;
+}
+
+@media only screen and (max-width: 480px) {
+  header {
+    height: 69px;
+    width: 100%;
+  }
+
+  .mainbanner img {
+    width: auto;
+    height: 350px;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+  }
+
+   .mainbanner {
+     display: block;
+   }
+
+  .main img {
+    width: auto;
+    height: 300px;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+  }
+
+  }
 }
