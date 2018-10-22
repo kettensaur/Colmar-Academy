@@ -91,7 +91,7 @@ margin-right: 16px;
   line-height: 42px;
 }
 
-.banner.btn {
+.banner .btn {
   display: flex;
   height: 60px;
   width: 90%;
@@ -103,12 +103,28 @@ margin-right: 16px;
   padding-bottom: 8px;
   border-radius: 8px;
   box-shadow: 0px 3px 5px 0px rgba(158, 158, 158, 0.57);
+  transition-property: background-color;
+  transition-duration: 220ms;
 }
 
-.banner.btn a {
+.banner .btn:hover {
+  background-color: #682B10;
+}
+
+.banner .btn:active {
+  background-color: #A39142;
+}
+
+.btn {
 color: #F9F6F4;
 text-decoration: none;
 font-size: 30px;
+transition-property: color;
+transition-duration: 250ms;
+}
+
+.btn:hover {
+  color: #FEFFED;
 }
 
 .banner-family {
@@ -187,7 +203,13 @@ section p {
 section a {
   text-decoration: none;
   font-weight: 500px;
+  transition-property: color;
+  transition-duration: 150ms;
   }
+
+section a:hover {
+  color: #4D5770;
+}
 
 .info {
   display: flex;
