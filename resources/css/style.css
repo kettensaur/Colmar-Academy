@@ -174,18 +174,21 @@ section:last-child {
 section h3 {
   font-size: 35px;
   font-weight: 500;
+  margin-left: 20px;
 }
 
 section p {
   margin-top: 1.3rem;
   line-height: 30px;
   font-size: 25px;
+  margin-left: 20px;
 }
 
 section a {
   text-decoration: none;
   font-weight: 500px;
-}
+  }
+  
 .info {
   display: flex;
   flex-direction: column;
@@ -281,6 +284,7 @@ video {
   margin-right: 34px;
   font-size: 35px;
   font-weight: 500;
+  margin-left: 20px;
 }
 
 #vid2 {
@@ -291,6 +295,7 @@ video {
   margin-right: 34px;
   font-size: 35px;
   font-weight: 500;
+  margin-left: 20px;
 }
 
 #vid2 p {
@@ -298,6 +303,7 @@ video {
   line-height: 30px;
   font-size: 25px;
   margin-right: 34px;
+  margin-left: 20px;
 }
 
 #vid p {
@@ -305,6 +311,7 @@ video {
   line-height: 30px;
   font-size: 25px;
   margin-right: 34px;
+  margin-left: 20px;
 }
 
 .title h1 {
@@ -314,5 +321,11 @@ video {
   font-size: 65px;
   font-weight: bold;
   background-color: #F9F6F4;
+}
 
+.banners.info h3 {
+  margin-top: 30px;
+  margin-left: 34px;
+  font-size: 35px;
+  font-weight: bold;
 }
