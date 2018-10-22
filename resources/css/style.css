@@ -53,8 +53,17 @@ margin-right: 16px;
 .navigation a {
   color: #4F2412;
   text-decoration: none;
+  transition-property: color;
+  transition-duration: 150ms;
 }
 
+.navigation a:hover {
+  color: #4996B2;
+}
+
+.navigation a:active {
+  color: #39768C;
+}
 
 .mainbanner {
   display: flex;
@@ -208,7 +217,11 @@ section a {
   }
 
 section a:hover {
-  color: #4D5770;
+  color: #4996B2;
+}
+
+section a:active {
+  color: #39768C;
 }
 
 .info {
@@ -371,4 +384,14 @@ footer {
 .navi a {
   color: #4F2412;
   text-decoration: none;
+  transition-property: color;
+  transition-duration: 150ms;
+}
+
+.navi a:hover {
+  color: #4996B2;
+}
+
+.navi a:active {
+  color: #39768C;
 }
