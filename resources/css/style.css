@@ -404,16 +404,22 @@ footer {
     width: 100%;
   }
 
+  .logo p {
+    display: none;
+  }
   .mainbanner img {
-    width: auto;
+    width: 100%;
     height: 350px;
     margin: 0 auto;
     background-size: cover;
     background-position: center;
   }
-
+   .banner {
+     margin-right: 32px;
+   }
    .mainbanner {
      display: block;
+     padding-bottom: 52px;
      }
 
   .main img {
@@ -437,13 +443,14 @@ footer {
    width: 460px;
   }
   .learn h1 {
+    margin-top: 32px;
     font-size: 50px;
     font-weight: bold;
     letter-spacing: -1px;
   }
 
   .learn h3 {
-    margin-top: 30px;
+    margin-top: 32px;
     font-size: 30px;
     word-spacing: 3px;
     font-weight: 500;
@@ -452,4 +459,50 @@ footer {
    .banners.small {
      display: flex;
    }
+
+   section {
+     display: block;
+   }
+
+   section img {
+     display: none;
+
+   }
+   .image1.ori {
+     background-image:url('../images/information-orientation-mobile.jpg');
+     background-repeat: no-repeat;
+     background-position: center;
+     height: 250px;
+     width: 60%;
+     margin-right: 24px;
+   }
+   .info h3,
+   p {
+     margin-top: 20px;
+   }
+   .info h3 {
+     font-weight: bold;
+   }
+   .info  {
+     padding-bottom: 40px;
+   }
+
+   .image1.cam {
+     background-image:url('../images/information-campus-mobile.jpg');
+     background-repeat: no-repeat;
+     background-position: center;
+     height: 250px;
+     width: 60%;
+     margin-right: 24px;
+   }
+
+   .image1.lect {
+     background-image:url('../images/information-guest-lecture-mobile.jpg');
+     background-repeat: no-repeat;
+     background-position: center;
+     height: 250px;
+     width: 60%;
+     margin-right: 24px;
+   }
+
 }
