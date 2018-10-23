@@ -404,6 +404,15 @@ footer {
     width: 100%;
   }
 
+  nav span {
+
+    background-image:url('../images/ic-on-campus.svg');
+  }
+
+  a {
+    display: none;
+  }
+
   .logo p {
     display: none;
   }
@@ -543,7 +552,44 @@ footer {
      background-color:#F9F6F4;
    }
 
+   .container2 h1 {
+     font-size: 51px;
+   }
+
    section:last-child {
      background-color: #F9F6F4;
    }
+
+   .title {
+     border-top: 2px solid #E9E0DB;
+
+   }
+   .title h1 {
+     font-size: 50px;
+   }
+   .video-content {
+     display: none;
+   }
+
+   .banners.info h3 {
+     display: none;
+   }
+
+    .navi {
+      display: none;
+    }
+
+    video {
+      width: 450px;
+      height: auto;
+      margin: auto;
+    }
+
+    footer {
+      border-top: 2px solid #F9F6F4;
+    }
+    .footer p {
+      margin-top: -44px;
+      margin-bottom: -114px;
+    }
 }
