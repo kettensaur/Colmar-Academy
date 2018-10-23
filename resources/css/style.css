@@ -404,17 +404,58 @@ footer {
     width: 100%;
   }
 
-  nav span {
-
-    background-image:url('../images/ic-on-campus.svg');
+  .navigation {
+    display: flex;
+  }
+  .replace a {
+  display: none;
   }
 
-  a {
+  .replace2 a {
+  display: none;
+  }
+
+  .replace4 a {
     display: none;
+  }
+
+  .replace {
+    width: 160px;
+    height: 160px;
+    background:url('../images/ic-on-campus.svg');
+    background-repeat: no-repeat;
+    padding-right: 30px;
+    border: 1px solid black;
+  }
+
+  .replace2 {
+    width: 160px;
+    height: 160px;
+    background:url('../images/ic-online.svg');
+    background-repeat: no-repeat;
+    padding-right: 30px;
+  }
+
+  .replace3 {
+    display: none;
+  }
+
+  .replace4 {
+    width: 160px;
+    height: 160px;
+    background:url('../images/ic-login.svg');
+    background-repeat: no-repeat;
+    padding-right: 30px;
   }
 
   .logo p {
     display: none;
+  }
+
+  }
+  .logo img {
+    border: 1px solid black;
+
   }
   .mainbanner img {
     width: 100%;
